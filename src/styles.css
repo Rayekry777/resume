@@ -1,0 +1,96 @@
+@import url('./styles.base.css');
+.operation-shield{position:fixed;inset:0;z-index:205;cursor:progress;background:#f6f8ff12}.app-interactive[inert]{pointer-events:none}.operation-shield .busy-indicator{top:80px}
+@media(min-width:701px) and (max-width:860px){.editor-workspace{display:block}.edit-form-pane,.preview-pane{height:100%}.mobile-edit .preview-pane{display:none}.mobile-preview .edit-form-pane{display:none}}
+@media(max-width:700px){.field input,.field select,.document-title,.inline-field input,.search-field input,.markdown-input{font-size:16px}.richtext-content{font-size:16px}.field input::placeholder{font-size:12px}.search-field input::placeholder{font-size:10px}.document-title{font-size:13px}.richtext-toolbar>select{font-size:12px}}
+
+/* Dialogs share the same timing as the controls that open them. */
+.modal-backdrop { backdrop-filter: none; }
+.modal-backdrop[data-closing] > .modal-panel { pointer-events: none; }
+
+.reference-template-paper:focus-visible,
+.reference-drawer-cover:focus-visible,
+.resume-small-cover:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -3px;
+}
+.reference-filters > summary:focus-visible,
+.md-info-menu > summary:focus-visible,
+.export-menu > summary:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+.reference-editor .smart-fit-button:focus-visible { opacity: 1; }
+
+@keyframes shade-open { from { opacity: 0; } to { opacity: 1; } }
+@keyframes shade-close { to { opacity: 0; } }
+@keyframes panel-open { from { transform: translateY(7px) scale(.99); } to { transform: none; } }
+@keyframes panel-close { to { transform: translateY(4px) scale(.995); } }
+@keyframes drawer-open { from { transform: translateX(32px); } to { transform: none; } }
+@keyframes drawer-close { to { transform: translateX(20px); } }
+@keyframes view-appear { from { opacity: .65; } to { opacity: 1; } }
+@keyframes toast-appear { from { opacity: 0; translate: 0 5px; } to { opacity: 1; translate: none; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .modal-backdrop { animation: shade-open 150ms ease-out; }
+  .modal-backdrop > .modal-panel { animation: panel-open 170ms cubic-bezier(.2,.8,.2,1); }
+  .modal-backdrop > .template-picker-modal { animation: drawer-open 190ms cubic-bezier(.2,.8,.2,1); }
+  .modal-backdrop[data-closing] { animation: shade-close 95ms ease-in both; }
+  .modal-backdrop[data-closing] > .modal-panel { animation: panel-close 95ms ease-in both; }
+  .modal-backdrop[data-closing] > .template-picker-modal { animation: drawer-close 95ms ease-in both; }
+
+  .reference-editor .edit-form-pane,
+  .reference-editor .md-source-wrap,
+  .reference-editor .md-editor-content,
+  .spacing-popover,
+  .export-menu[open] > .dropdown-panel { animation: view-appear 120ms ease-out; }
+  .reference-editor .edit-form-pane { scroll-behavior: smooth; }
+  .toast { animation: toast-appear 150ms ease-out; }
+
+  :is(.button, .icon-button, .reference-pagination > button, .reference-drawer-pagination > button):enabled:active {
+    scale: .97;
+  }
+  :is(.button, .icon-button, .reference-pagination > button, .reference-drawer-pagination > button) {
+    transition: background-color 130ms ease, border-color 130ms ease, color 130ms ease, scale 90ms ease;
+  }
+  .md-mode-switch > button, .template-start-content > button, .reference-editor .module-row {
+    transition: background-color 130ms ease, color 130ms ease;
+  }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .reference-home .reference-template-card, .reference-drawer-card {
+    transition: translate 160ms ease, border-color 160ms ease;
+  }
+  .reference-home .reference-template-card:hover, .reference-drawer-card:hover {
+    translate: 0 -2px;
+    border-color: #bac9f5;
+  }
+}
+@media (hover: none) {
+  .reference-home .reference-template-paper:hover:not(:focus-visible) .reference-cover-action,
+  .reference-drawer-cover:hover:not(:focus-visible) .reference-drawer-cover-overlay { opacity: 0; }
+  .reference-editor .pdf-surface .smart-fit-button { opacity: 1; }
+}
+@media (max-width: 520px) {
+  .template-preview-modal .template-preview-layout { display: flex; flex-direction: column; gap: 14px; }
+  .template-preview-modal .large-template-cover { width: 100%; padding: 8px; }
+  .template-preview-modal .large-template-cover > .template-pdf-thumbnail {
+    width: auto;
+    max-width: 100%;
+    max-height: min(32dvh, 250px);
+  }
+  .template-preview-modal .template-preview-copy { width: 100%; }
+  .template-preview-modal .template-preview-copy > .template-tags { margin-bottom: 12px; }
+  .template-preview-modal .template-preview-copy > .button { min-height: 40px; }
+  .modal-heading > .icon-button,
+  .modal-panel.template-picker-modal > .modal-heading > .icon-button { width: 40px; height: 40px; }
+}
+
+/* Captions must accommodate wrapped tags and the favorite control on narrow cards. */
+@media (max-width: 700px) {
+  .reference-home .reference-template-grid > .reference-template-card,
+  .reference-home .reference-template-grid > .reference-markdown-card { height: auto; aspect-ratio: auto; }
+  .reference-home .reference-template-card { display: flex; flex-direction: column; }
+  .reference-home .reference-template-card .reference-template-paper { flex-shrink: 0; }
+  .reference-home .reference-template-card .reference-template-caption { height: auto; flex: 1; }
+}

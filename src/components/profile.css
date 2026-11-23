@@ -1,0 +1,15 @@
+.reference-profile-form .profile-extra-heading{display:flex;align-items:center;justify-content:space-between;gap:6px;min-height:20px}
+.reference-profile-form .profile-extra-heading>span{min-width:0;overflow-wrap:anywhere}
+.reference-profile-form .profile-remove-field{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:22px;height:20px;padding:0;border:0;background:transparent;color:#a5a9b4;border-radius:4px}
+.reference-profile-form .profile-remove-field:hover{background:#f5f0f1;color:#cb6575}
+.reference-profile-form .profile-add-fields{margin-top:22px;color:#777c8a;font-size:12px}
+.reference-profile-form .profile-add-fields summary{display:inline-flex;align-items:center;gap:5px;cursor:pointer;list-style:none;min-height:28px;color:#6679d8}
+.reference-profile-form .profile-add-fields summary::-webkit-details-marker{display:none}
+.reference-profile-form .profile-common-fields{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.reference-profile-form .profile-common-fields button{display:inline-flex;align-items:center;gap:3px;min-height:29px;border:1px solid #e6e8f0;border-radius:5px;padding:4px 9px;background:#fff;color:#7b8090;font-size:12px}
+.reference-profile-form .profile-custom-field{display:flex;gap:8px;margin-top:12px;max-width:280px}
+.reference-profile-form .profile-custom-field input{height:32px;min-width:0;flex:1;border:1px solid #e5e5e8;border-radius:5px;padding:5px 8px;font-size:12px;color:#50545c;background:#fff}
+.reference-profile-form .profile-custom-field button{min-width:48px;border:1px solid #e0e4f1;border-radius:5px;padding:4px 9px;background:#f6f7fc;color:#6679d8;font-size:12px}
+.reference-profile-form .profile-add-fields button:disabled{opacity:.45;cursor:default}
+.reference-profile-form .profile-add-fields small{display:block;margin-top:9px;font-size:11px;color:#999ca7}
+@media(max-width:860px){.reference-profile-form .profile-custom-field input{font-size:16px;height:38px}.reference-profile-form .profile-common-fields button{min-height:34px}.reference-profile-form .profile-remove-field{width:26px;height:24px}}

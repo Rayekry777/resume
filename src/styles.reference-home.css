@@ -1,0 +1,173 @@
+.reference-home{min-height:100dvh;background:#f7f8fa;color:#32323b;font-family:"Microsoft YaHei","PingFang SC",sans-serif}
+.reference-home .site-header{height:64px;padding:0 24px;gap:42px;border-bottom:1px solid #eeedf3;background:#fff;box-shadow:none}
+.reference-home .brand{gap:10px;font-size:18px;letter-spacing:0;font-weight:700;min-width:150px;color:#25252d}
+.reference-home .brand-symbol{width:27px;height:auto;margin:0;transform:none}
+.reference-home .main-nav{gap:34px;align-self:stretch}
+.reference-home .main-nav>button{font-size:14px;font-weight:400;color:#4c4b55;white-space:nowrap}
+.reference-home .main-nav>button.active{color:#4e6be9}
+.reference-home .main-nav>button.active:after{height:2px;border-radius:0;background:#627bf0}
+.reference-home .header-actions{gap:20px}
+.reference-home .header-actions .pwa-status{display:flex}
+.reference-home .header-actions .pwa-status>span{display:none}
+.reference-home .reference-local-status{display:flex;align-items:center;gap:6px;font-size:12px;color:#7f8293;white-space:nowrap}
+.reference-home .import-header{height:32px;padding:0 16px;font-size:12px;border-radius:4px;box-shadow:none}
+.reference-home .dashboard-main{max-width:none;margin:0;padding:24px 20px}
+.reference-home .dashboard-layout{display:grid;grid-template-columns:calc(32.88% - 5.26px) minmax(0,1fr);gap:16px;align-items:stretch}
+.reference-home .resume-library,.reference-home .template-panel{height:calc(100dvh - 112px);min-height:480px;background:white;border:0;border-radius:5px;box-shadow:none;padding:0;position:static;overflow:hidden;display:flex;flex-direction:column}
+.reference-home .reference-library-tabs,.reference-home .reference-creation-tabs{display:flex;align-items:stretch;gap:26px;flex-shrink:0;border-bottom:1px solid #efeff3;height:52px;padding:0 18px;margin:0}
+.reference-home .reference-library-tabs>button,.reference-home .reference-creation-tabs>button{position:relative;font-size:14px;line-height:1;color:#6f6f79;white-space:nowrap;padding:0 0;display:flex;align-items:center;gap:5px;font-weight:400}
+.reference-home .reference-library-tabs>button.selected,.reference-home .reference-creation-tabs>button.selected{color:#5371e9}
+.reference-home .reference-library-tabs>button.selected:after,.reference-home .reference-creation-tabs>button.selected:after{content:"";position:absolute;bottom:-1px;left:0;right:0;height:2px;background:#6880ee}
+.reference-home .reference-library-tabs>button>span{font-size:10px;background:#f2f4fb;padding:3px 5px;border-radius:4px;color:#98a0b4}
+.reference-home .reference-library-tabs>.reference-new-resume{margin-left:auto;width:25px;align-self:center;height:27px;flex-shrink:0;color:#8a91a4}
+.reference-home .reference-creation-tabs{gap:34px;padding:0 24px}
+.reference-home .resume-list{padding:0 17px;max-height:none;flex:1;min-height:0;overflow:auto;scrollbar-width:thin;scrollbar-color:#e2e1ec transparent}
+.reference-home .resume-card{height:220px;padding:12px 0 10px;gap:18px;border-bottom:1px solid #ededf2;position:relative;align-items:stretch}
+.reference-home .resume-card:last-child{border-bottom:1px solid #ededf2}
+.reference-home .resume-small-cover{width:160px;height:198px;flex-shrink:0;border:1px solid #e9e9ee;border-radius:1px;background:white;box-shadow:0 1px 5px #3333330a;overflow:hidden;position:relative;text-align:left;padding:0}
+.reference-home .resume-small-cover:disabled{opacity:.7}
+.reference-home .resume-small-cover .template-sheet{width:217px;height:307px;max-width:none;padding:21px 18px 10px;aspect-ratio:auto;transform:scale(.737);transform-origin:top left;box-shadow:none;border-radius:0}
+.reference-home .resume-card-info{padding-top:2px;min-width:0;flex:1;display:flex;flex-direction:column;align-items:flex-start}
+.reference-home .resume-card-title{font-size:14px;font-weight:400;line-height:1.7;margin:0;padding:0;text-align:left;color:#4f505a;word-break:break-word;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.reference-home .resume-card-title:hover{color:#5875eb}
+.reference-home .resume-style{font-size:11px;color:#a4a4af;margin-top:6px;line-height:1.5}
+.reference-home .reference-update-time{margin-top:16px;color:#9999a5;font-size:12px;line-height:1.9}
+.reference-home .reference-update-time>span{display:block}
+.reference-home .resume-card-info time{font-size:12px;color:#9999a5;line-height:1.9;padding:0;margin:0}
+.reference-home .resume-card-actions{display:flex;position:static;gap:11px;margin:auto 0 2px -3px;align-items:center}
+.reference-home .resume-card-actions .icon-button{width:24px;height:28px;color:#9195a1;padding:0}
+.reference-home .resume-card-actions .icon-button:hover{background:#f1f4ff;color:#5574eb}
+.reference-home .resume-card-actions>.button{font-size:11px;height:29px;border-radius:4px;padding:0 10px}
+.reference-home .resume-card-actions>.text-button{font-size:12px}
+.reference-home .reference-saved-template .template-tags{margin-top:14px;flex-wrap:wrap}
+.reference-home .library-empty{min-height:240px;padding:52px 10px 35px;position:static;display:flex;text-align:center;color:#b8bac5}
+.reference-home .library-empty h3{font-size:14px;font-weight:400;margin:20px 0 8px;color:#777c8f}
+.reference-home .library-empty p{font-size:12px;line-height:1.9;margin-bottom:18px;max-width:260px;color:#a6a8b5}
+.reference-home .library-empty .button{height:33px;font-size:12px;border-radius:4px;padding:0 16px}
+.reference-home .reference-library-bottom{padding:12px 17px 10px;margin-top:auto;border-top:1px solid #efeff4;background:#fff;flex-shrink:0}
+.reference-home .reference-data-actions{display:flex;gap:18px;align-items:center;justify-content:space-between}
+.reference-home .reference-data-actions>button{display:flex;align-items:center;gap:5px;font-size:11px;padding:5px 0;color:#8a8e9e;white-space:nowrap}
+.reference-home .reference-data-actions>button:hover{color:#5371e9}
+.reference-home .last-backup{font-size:10px;color:#aaaab6;margin:8px 0 0;line-height:1.7}
+.reference-home .reference-backup-reminder{display:flex;align-items:flex-start;gap:6px;font-size:10px;background:#f5f6fe;border-radius:3px;padding:7px 8px;margin:0 0 9px;color:#9198b3;line-height:1.7}
+.reference-home .reference-backup-reminder>svg{margin-top:1px;flex-shrink:0}
+.reference-home .reference-backup-reminder>span{flex:1}
+.reference-home .reference-backup-reminder>button{font-size:10px;color:#5f79e9;white-space:nowrap;padding:0}
+.reference-home .reference-template-gallery{flex:1;min-height:0;overflow:auto;scrollbar-width:thin;scrollbar-color:#e2e1ec transparent}
+.reference-home .reference-filters{margin:0 24px;border-bottom:1px solid #f3f3f7}
+.reference-home .reference-filters>summary{display:flex;align-items:center;gap:6px;color:#999ba8;font-size:11px;cursor:pointer;list-style:none;padding:12px 0 10px;user-select:none}
+.reference-home .reference-filters>summary::-webkit-details-marker{display:none}
+.reference-home .reference-filters>summary>span{margin-left:auto;color:#b2b3c0;font-size:10px}
+.reference-home .reference-filter-content{padding:2px 0 12px}
+.reference-home .reference-search{display:flex;align-items:center;gap:8px;height:33px;border:1px solid #e8e9f1;border-radius:4px;padding:0 10px;max-width:300px;color:#a7aaba}
+.reference-home .reference-search input{border:0;outline:0;background:none;width:100%;min-width:0;height:100%;font-size:12px;color:#60687e}
+.reference-home .reference-search input::placeholder{color:#b2b4c0}
+.reference-home .reference-categories{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.reference-home .reference-categories>button{font-size:11px;color:#9195a4;border-radius:3px;padding:5px 9px;line-height:1.4}
+.reference-home .reference-categories>button.selected{background:#edf2ff;color:#6481e8}
+.reference-home .reference-template-grid{display:grid;grid-template-columns:repeat(2,minmax(0,280px));justify-content:space-evenly;gap:28px 30px;padding:17px 26px 26px}
+.reference-home .reference-template-card,.reference-home .reference-markdown-card{min-width:0;width:100%;height:405px;border:1px solid #e0e2e9;border-radius:5px;overflow:hidden;background:#fff;box-shadow:0 1px 3px #151d3d04}
+.reference-home .reference-template-card{position:relative;transition:box-shadow .15s,border-color .15s}
+.reference-home .reference-template-card:hover{border-color:#bac9f5;box-shadow:0 3px 14px #5369ba12}
+.reference-home .reference-template-paper{display:block;width:100%;height:321px;overflow:hidden;padding:0;position:relative;background:#fff;text-align:left;border-bottom:1px solid #eeeeF3}
+.reference-home .reference-template-paper .template-sheet{width:100%;max-width:none;height:395px;aspect-ratio:auto;box-shadow:none;border-radius:0;padding:24px 22px 16px;transform:none}
+.reference-home .reference-template-paper:hover .template-sheet{transform:none}
+.reference-home .reference-template-paper .sheet-name{font-size:16px;line-height:1.4}
+.reference-home .reference-template-paper .sheet-role{font-size:7px}
+.reference-home .reference-template-paper .sheet-contact{font-size:5.4px;line-height:1.7}
+.reference-home .reference-template-paper .sheet-section-title{font-size:8px;margin-bottom:6px;line-height:1.5}
+.reference-home .reference-template-paper .sheet-item-heading b{font-size:6.6px}
+.reference-home .reference-template-paper .sheet-item-heading span{font-size:4.6px}
+.reference-home .reference-template-paper .sheet-item-subtitle{font-size:6px}
+.reference-home .reference-template-paper .sheet-item p{font-size:5.8px;line-height:1.8}
+.reference-home .reference-template-paper .sheet-section{margin-top:10px}
+.reference-home .reference-cover-action{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#fffefc;color:#5774e2;border:1px solid #dde4fd;box-shadow:0 5px 20px #45519324;font-size:12px;border-radius:4px;padding:10px 22px;opacity:0;transition:opacity .15s;white-space:nowrap}
+.reference-home .reference-template-paper:hover .reference-cover-action,.reference-home .reference-template-paper:focus-visible .reference-cover-action{opacity:1}
+.reference-home .reference-template-caption{height:83px;padding:12px 15px 10px;background:#fff}
+.reference-home .reference-template-caption h3{font-size:18px;font-weight:400;line-height:1.4;margin:0 0 6px;color:#4e5060;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.reference-home .reference-template-caption h3>button{font:inherit;color:inherit;padding:0;text-align:left;overflow:hidden;text-overflow:ellipsis;max-width:100%;white-space:nowrap}
+.reference-home .reference-template-caption h3>button:hover{color:#5d7beb}
+.reference-home .reference-template-meta{display:flex;align-items:center;justify-content:space-between;gap:5px}
+.reference-home .template-tags{display:flex;gap:6px;min-width:0}
+.reference-home .template-tags>span{font-size:10px;font-weight:400;line-height:1.3;letter-spacing:0;padding:3px 6px;background:#f0f6fe;color:#89acd5;border-radius:2px;white-space:nowrap}
+.reference-home .reference-favorite{width:23px;height:23px;color:#b8bdcd;flex-shrink:0}
+.reference-home .reference-favorite:hover,.reference-home .is-favorite{color:#7490ea}
+.reference-home .reference-markdown-card{display:flex;flex-direction:column;align-items:center;justify-content:center;border:1px solid #e0e2e9;background:#fff;box-shadow:none;text-align:center}
+.reference-home .markdown-file-symbol{width:49px;height:58px;border:2px solid #7596e7;border-radius:3px;position:relative;color:#6385df;display:flex;align-items:center;justify-content:center;margin:0 0 30px;font-family:ui-monospace,monospace}
+.reference-home .markdown-file-symbol:after{content:"";position:absolute;right:-2px;top:-2px;width:13px;height:13px;background:linear-gradient(45deg,#edf1ff 48%,#fff 50%);border-left:2px solid #7596e7;border-bottom:2px solid #7596e7}
+.reference-home .markdown-file-symbol>span{font-size:25px;font-weight:600;line-height:1;margin-top:9px}
+.reference-home .markdown-file-symbol>svg{position:absolute;right:-16px;bottom:-7px;background:white;padding:1px;box-sizing:content-box}
+.reference-home .reference-markdown-card h3{font-size:20px;line-height:1.5;color:#4e505d;font-weight:500;margin:0 0 22px}
+.reference-home .reference-markdown-card p{font-size:12px;color:#999baa;margin:0 0 27px;line-height:1.8}
+.reference-home .reference-markdown-card>.button{height:34px;font-size:13px;padding:0 25px;border-radius:4px;box-shadow:none;background:#5577e8}
+.reference-home .reference-no-results{display:flex;flex-direction:column;align-items:center;gap:10px;padding:5px 20px 30px;font-size:12px;color:#aaaeba}
+.reference-home .reference-pagination{display:flex;align-items:center;justify-content:center;gap:9px;padding:5px 20px 28px}
+.reference-home .reference-pagination>button{display:grid;place-items:center;min-width:28px;height:28px;border:1px solid #e9ebf2;border-radius:3px;font-size:12px;color:#9095a7}
+.reference-home .reference-pagination>button.selected{border-color:#728bed;color:#637ee5;background:#f6f8ff}
+.reference-home .reference-markdown-panel{padding:38px 36px;display:grid;grid-template-columns:minmax(200px,280px) minmax(0,1fr);gap:32px;align-items:center;overflow:auto;flex:1}
+.reference-home .reference-markdown-options h2{font-size:19px;font-weight:500;line-height:1.5;color:#565e75;margin:0 0 17px}
+.reference-home .reference-markdown-options p{font-size:12px;line-height:2;color:#9a9eae;margin:0 0 24px}
+.reference-home .reference-markdown-options>.button{height:auto;min-height:36px;padding:9px 12px;font-size:11px;margin:0 0 13px;border-radius:4px;justify-content:center;width:100%}
+.reference-home .reference-markdown-options>.text-button{font-size:11px;margin:5px auto}
+.reference-home .reference-import-panel{padding:38px 40px;flex:1;overflow:auto}
+.reference-home .reference-import-dropzone{display:flex;align-items:center;justify-content:center;gap:17px;flex-direction:column;width:100%;min-height:260px;border:1px dashed #d2d7e2;border-radius:5px;background:#fff;padding:30px 20px;color:#90a2d6;text-align:center}
+.reference-home .reference-import-dropzone:hover{background:#f4f7ff;border-color:#6d8ae8}
+.reference-home .reference-import-dropzone strong{font-size:16px;font-weight:400;color:#697aab}
+.reference-home .reference-import-dropzone>span:not(.button){font-size:11px;line-height:1.9;color:#9fa7be}
+.reference-home .reference-import-dropzone small{font-size:11px;color:#b0b5c4;margin-top:-8px}
+.reference-home .reference-import-dropzone>.button{font-size:12px;pointer-events:none;height:34px;margin-top:5px;border-radius:4px}
+.reference-home .reference-import-notes{display:flex;justify-content:center;max-width:510px;margin:22px auto;color:#a0a5b6;font-size:12px;line-height:1.9}
+.reference-home .reference-import-notes>p{display:flex;gap:12px;margin-bottom:18px}
+.reference-home .reference-import-notes>p>svg{flex-shrink:0;margin-top:3px;color:#8ea2d8}
+.reference-home .reference-import-notes b{display:block;font-weight:400;color:#78829d;margin-bottom:3px}
+.reference-home .reference-import-notes>.text-button{font-size:12px;margin:0}
+.reference-home .reference-templates-page .dashboard-layout{grid-template-columns:minmax(0,1fr)}
+.reference-home .reference-templates-page .reference-template-grid{grid-template-columns:repeat(3,minmax(0,280px));max-width:1120px;gap:30px 35px;margin:auto}
+.reference-home .reference-templates-page .reference-markdown-panel{max-width:850px;width:100%;margin:auto}
+.reference-home .site-footer{height:54px;min-height:0;margin:0 23px;padding:0;max-width:none;border:0;display:flex;align-items:center;gap:24px;color:#b5b4c1;font-size:10px}
+.reference-home .site-footer>span:first-child{color:#a5a3b3}
+.reference-home .site-footer>.text-button{font-size:10px;color:#999eb4;margin-left:auto}
+@media(min-width:1500px){.reference-home .dashboard-layout{grid-template-columns:399px minmax(0,1fr)}.reference-home .reference-template-grid{grid-template-columns:repeat(3,minmax(0,280px));column-gap:32px}.reference-home .reference-markdown-panel{max-width:950px;margin:auto;gap:60px}}
+@media(max-width:1150px){.reference-home .site-header{gap:25px;padding:0 20px}.reference-home .brand{min-width:140px}.reference-home .header-actions{gap:12px}.reference-home .dashboard-layout{grid-template-columns:335px minmax(0,1fr)}.reference-home .resume-small-cover{width:132px;height:198px}.reference-home .resume-small-cover .template-sheet{transform:scale(.608)}.reference-home .resume-card{gap:14px}.reference-home .reference-library-tabs{gap:21px;padding:0 16px}.reference-home .reference-library-tabs>button{font-size:13px}.reference-home .reference-template-grid{padding:17px 22px 26px;column-gap:22px}.reference-home .reference-template-card,.reference-home .reference-markdown-card{height:365px}.reference-home .reference-template-paper{height:284px}.reference-home .reference-template-caption{height:80px;padding:12px}.reference-home .reference-template-caption h3{font-size:15px}.reference-home .reference-markdown-card h3{font-size:18px}.reference-home .reference-markdown-card p{font-size:11px}.reference-home .reference-markdown-panel{padding:25px;gap:20px;grid-template-columns:minmax(180px,1fr) minmax(0,1fr)}.reference-home .reference-markdown-options h2{font-size:16px}.reference-home .reference-data-actions{gap:10px}}
+@media(max-width:950px) and (min-width:701px){.reference-home .dashboard-layout{grid-template-columns:300px minmax(0,1fr)}.reference-home .reference-local-status{display:none}.reference-home .main-nav{gap:24px}.reference-home .resume-small-cover{width:112px}.reference-home .resume-small-cover .template-sheet{transform:scale(.516)}.reference-home .resume-card{gap:12px}.reference-home .reference-library-tabs{gap:17px;padding:0 13px}.reference-home .reference-library-tabs>button{font-size:12px}.reference-home .reference-creation-tabs{gap:23px;padding:0 18px}.reference-home .reference-creation-tabs>button{font-size:12px}.reference-home .reference-template-grid{grid-template-columns:minmax(0,280px);padding:17px 24px 26px}.reference-home .reference-template-card,.reference-home .reference-markdown-card{height:405px}.reference-home .reference-template-paper{height:321px}.reference-home .reference-markdown-panel{display:flex;flex-direction:column;align-items:stretch}.reference-home .reference-markdown-panel>.reference-markdown-card{height:300px;min-height:300px}.reference-home .reference-import-panel{padding:25px}.reference-home .reference-data-actions{gap:7px}.reference-home .reference-data-actions>button{font-size:10px;gap:3px}.reference-home .reference-templates-page .reference-template-grid{grid-template-columns:repeat(2,minmax(0,280px))}}
+@media(max-width:700px){.reference-home .site-header{height:60px;padding:0 14px;gap:20px}.reference-home .brand{font-size:17px;min-width:0;gap:8px}.reference-home .brand-symbol{transform:scale(.85);width:25px}.reference-home .main-nav{gap:20px;margin-left:auto}.reference-home .main-nav>button{font-size:12px}.reference-home .main-nav>button:last-child{display:none}.reference-home .header-actions{margin-left:0;gap:0}.reference-home .header-actions .pwa-status,.reference-home .reference-local-status{display:none}.reference-home .import-header{width:30px;padding:0;border:0!important;background:#eff2ff!important;color:#7c92dd!important;height:30px}.reference-home .import-header>span{display:none}.reference-home .dashboard-main{padding:16px 12px 0}.reference-home .dashboard-layout{grid-template-columns:minmax(0,1fr)!important;gap:16px}.reference-home .resume-library,.reference-home .template-panel{height:auto;min-height:0;border-radius:5px}.reference-home .reference-library-tabs,.reference-home .reference-creation-tabs{height:50px;padding:0 16px;gap:28px}.reference-home .reference-library-tabs>button,.reference-home .reference-creation-tabs>button{font-size:13px}.reference-home .resume-list{padding:0 16px;max-height:360px;flex:none}.reference-home .resume-card{height:180px;padding:12px 0;gap:18px}.reference-home .resume-small-cover{width:125px;height:156px}.reference-home .resume-small-cover .template-sheet{transform:scale(.576)}.reference-home .resume-card-info{padding:0}.reference-home .resume-card-title{font-size:14px}.reference-home .resume-style{font-size:11px;margin-top:4px}.reference-home .reference-update-time{margin-top:12px;font-size:11px}.reference-home .resume-card-info time{font-size:11px}.reference-home .resume-card-actions{gap:13px;margin:6px 0 0 -4px}.reference-home .resume-card-actions .icon-button{width:30px;height:31px}.reference-home .library-empty{padding:28px 10px 30px;min-height:0}.reference-home .library-empty h3{margin-top:12px;font-size:13px}.reference-home .library-empty p{font-size:11px;margin-bottom:14px}.reference-home .reference-library-bottom{padding:10px 16px 12px}.reference-home .reference-data-actions{justify-content:flex-start;gap:25px}.reference-home .reference-data-actions>button{font-size:11px;gap:6px;min-height:25px}.reference-home .last-backup{font-size:10px}.reference-home .reference-backup-reminder{font-size:10px}.reference-home .reference-template-gallery{overflow:visible}.reference-home .reference-filters{margin:0 16px}.reference-home .reference-filters>summary{padding:12px 0;font-size:11px}.reference-home .reference-search{max-width:none;height:37px}.reference-home .reference-search input{font-size:16px}.reference-home .reference-categories>button{font-size:11px;padding:7px 10px}.reference-home .reference-template-grid,.reference-home .reference-templates-page .reference-template-grid{grid-template-columns:repeat(2,minmax(0,1fr));padding:14px 16px 22px;gap:18px 14px}.reference-home .reference-template-card,.reference-home .reference-markdown-card{height:auto;aspect-ratio:280/405}.reference-home .reference-template-paper{height:auto;aspect-ratio:280/321}.reference-home .reference-template-paper .template-sheet{height:395px;padding:15px 12px}.reference-home .reference-template-paper .sheet-name{font-size:12px}.reference-home .reference-template-paper .sheet-role{font-size:5px}.reference-home .reference-template-paper .sheet-contact{font-size:4px}.reference-home .reference-template-paper .sheet-section-title{font-size:6px;margin-bottom:4px}.reference-home .reference-template-paper .sheet-item-heading b{font-size:4.6px}.reference-home .reference-template-paper .sheet-item-heading span{font-size:3px}.reference-home .reference-template-paper .sheet-item-subtitle{font-size:4px}.reference-home .reference-template-paper .sheet-item p{font-size:4px;line-height:1.7}.reference-home .reference-template-paper .sheet-section{margin-top:6px}.reference-home .reference-template-caption{height:auto;padding:10px 10px 6px}.reference-home .reference-template-caption h3{font-size:13px;line-height:1.5;margin:0 0 3px}.reference-home .template-tags{gap:4px}.reference-home .template-tags>span{font-size:8px;padding:2px 4px}.reference-home .reference-favorite{width:25px;height:25px}.reference-home .reference-favorite>svg{width:15px}.reference-home .reference-markdown-card{padding:15px 5px}.reference-home .markdown-file-symbol{width:34px;height:42px;border-width:1.5px;margin-bottom:20px}.reference-home .markdown-file-symbol:after{width:10px;height:10px;right:-1.5px;top:-1.5px;border-width:1.5px}.reference-home .markdown-file-symbol>span{font-size:20px;margin-top:5px}.reference-home .markdown-file-symbol>svg{width:17px;height:17px;right:-13px;bottom:-5px}.reference-home .reference-markdown-card h3{font-size:14px;margin-bottom:8px}.reference-home .reference-markdown-card p{font-size:9px;margin-bottom:20px;line-height:1.7}.reference-home .reference-markdown-card>.button{height:30px;font-size:11px;padding:0 18px}.reference-home .reference-pagination>button{min-width:32px;height:32px}.reference-home .reference-markdown-panel{padding:22px 20px;display:flex;flex-direction:column;gap:25px;overflow:visible}.reference-home .reference-markdown-panel>.reference-markdown-card{width:100%;height:300px;aspect-ratio:auto}.reference-home .reference-markdown-panel .reference-markdown-card h3{font-size:19px}.reference-home .reference-markdown-panel .reference-markdown-card p{font-size:12px}.reference-home .reference-markdown-options{max-width:400px;width:100%}.reference-home .reference-markdown-options h2{font-size:17px}.reference-home .reference-markdown-options p{font-size:12px}.reference-home .reference-markdown-options>.button{font-size:12px;min-height:40px}.reference-home .reference-import-panel{padding:23px 18px;overflow:visible}.reference-home .reference-import-dropzone{min-height:300px;padding:25px 13px;gap:18px}.reference-home .reference-import-dropzone strong{font-size:14px}.reference-home .reference-import-dropzone>span:not(.button){font-size:10px}.reference-home .reference-import-notes{font-size:11px}.reference-home .site-footer{height:auto;margin:0 12px;padding:20px 0;gap:8px;flex-wrap:wrap;font-size:9px}.reference-home .site-footer>.text-button{font-size:9px}.reference-home .site-footer>span:nth-child(2){font-size:9px}}
+@media(max-width:370px){.reference-home .site-header{padding:0 10px;gap:12px}.reference-home .brand{font-size:15px;gap:5px}.reference-home .main-nav{gap:13px}.reference-home .main-nav>button{font-size:11px}.reference-home .reference-creation-tabs{gap:22px}.reference-home .reference-template-grid{padding:14px 12px 20px;gap:14px 10px}.reference-home .reference-markdown-card h3{font-size:12px}.reference-home .reference-markdown-card p{font-size:8px}.reference-home .reference-template-caption h3{font-size:11px}.reference-home .template-tags>span{font-size:7px}.reference-home .reference-template-caption{padding:7px}.reference-home .reference-data-actions{gap:16px}}
+.template-pdf-thumbnail{display:block;width:100%;height:auto;max-width:none;object-fit:contain;object-position:top;background:#fff}
+.reference-home .reference-template-paper>.template-pdf-thumbnail{width:100%;height:auto}
+.large-template-cover>.template-pdf-thumbnail{width:100%;height:auto}
+.template-preview-modal .template-preview-copy>.template-tags{margin-bottom:28px}
+@media(max-width:700px){
+  .reference-home .site-header{height:auto;min-height:60px;flex-wrap:wrap;gap:0 20px;padding-top:12px}
+  .reference-home .brand{margin-bottom:12px}
+  .reference-home .header-actions{gap:12px;margin-left:auto;margin-bottom:12px}
+  .reference-home .header-actions .pwa-status{display:flex}
+  .reference-home .main-nav{order:1;width:100%;height:38px;margin-left:0;gap:24px}
+  .reference-home .main-nav>button:last-child{display:flex}
+  .reference-home .dashboard-main{padding-bottom:16px}
+}
+
+
+.markdown-library-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  padding: 16px 24px 2px;
+}
+.markdown-library-actions .button { min-height: 34px; height: auto; }
+@media (max-width: 700px) {
+  .markdown-library-actions { padding: 12px 14px 2px; gap: 6px 12px; }
+  .reference-home .reference-pagination { flex-wrap: wrap; gap: 4px; padding-inline: 8px; }
+}
+
+.template-start-content {
+  display: inline-flex;
+  align-self: flex-start;
+  gap: 3px;
+  margin: 0 0 16px;
+  padding: 3px;
+  border: 1px solid #e3e6ed;
+  border-radius: 6px;
+}
+.template-start-content button { padding: 5px 10px; font-size: 12px; color: #626b7c; border-radius: 4px; }
+.template-start-content button[aria-pressed="true"] { background: #edf1fe; color: #405cca; }

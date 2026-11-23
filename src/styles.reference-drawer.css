@@ -1,0 +1,292 @@
+.modal-backdrop:has(> .template-picker-modal) {
+  align-items: stretch;
+  justify-content: flex-end;
+  padding: 0;
+  background: rgb(0 0 0 / 50%);
+  backdrop-filter: none;
+}
+
+.modal-backdrop > .modal-panel.template-picker-modal {
+  width: 736px;
+  max-width: 100vw;
+  height: 100dvh;
+  max-height: 100dvh;
+  border: 0;
+  border-radius: 0;
+  box-shadow: -4px 0 18px rgb(0 0 0 / 6%);
+  background: #fff;
+}
+
+.modal-panel.template-picker-modal > .modal-heading {
+  height: 55px;
+  min-height: 55px;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 0 24px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #191919;
+}
+
+.modal-panel.template-picker-modal > .modal-heading h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.modal-panel.template-picker-modal > .modal-heading > .icon-button {
+  order: -1;
+  width: 20px;
+  height: 24px;
+  padding: 0;
+  border-radius: 0;
+  color: #191919;
+}
+
+.modal-panel.template-picker-modal > .modal-heading > .icon-button:hover {
+  color: #557aef;
+  background: transparent;
+}
+
+.modal-panel.template-picker-modal > .modal-content {
+  flex: 1;
+  padding: 26px 44px;
+  scrollbar-gutter: stable;
+}
+
+.reference-drawer-gallery {
+  min-width: 0;
+}
+
+.reference-drawer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 280px));
+  justify-content: start;
+  gap: 18px 72px;
+}
+
+.reference-drawer-card {
+  min-width: 0;
+  height: 404px;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.reference-drawer-cover {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 322px;
+  overflow: hidden;
+  padding: 0;
+  border-bottom: 1px solid #efefef;
+  background: #fff;
+  text-align: left;
+}
+
+.reference-drawer-cover > .template-sheet {
+  width: 100%;
+  max-width: none;
+  height: 395px;
+  aspect-ratio: auto;
+  padding: 24px 22px 16px;
+  border-radius: 0;
+  box-shadow: none;
+  transform: none;
+}
+
+.reference-drawer-cover > img,
+.reference-drawer-cover > .template-thumbnail-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+}
+
+.reference-drawer-cover .sheet-name { font-size: 16px; line-height: 1.4; }
+.reference-drawer-cover .sheet-role { font-size: 7px; }
+.reference-drawer-cover .sheet-contact { font-size: 5.4px; line-height: 1.7; }
+.reference-drawer-cover .sheet-section-title { margin-bottom: 6px; font-size: 8px; line-height: 1.5; }
+.reference-drawer-cover .sheet-item-heading b { font-size: 6.6px; }
+.reference-drawer-cover .sheet-item-heading span { font-size: 4.6px; }
+.reference-drawer-cover .sheet-item-subtitle { font-size: 6px; }
+.reference-drawer-cover .sheet-item p { font-size: 5.8px; line-height: 1.8; }
+.reference-drawer-cover .sheet-section { margin-top: 10px; }
+
+.reference-drawer-cover-overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgb(0 0 0 / 28%);
+  opacity: 0;
+  transition: opacity .15s ease;
+}
+
+.reference-drawer-cover-overlay > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 32px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #668af7, #4174f5);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.reference-drawer-cover:hover .reference-drawer-cover-overlay,
+.reference-drawer-cover:focus-visible .reference-drawer-cover-overlay {
+  opacity: 1;
+}
+
+.reference-drawer-caption {
+  height: 80px;
+  padding: 12px 15px 10px;
+}
+
+.reference-drawer-caption h3 {
+  margin: 0 0 7px;
+  overflow: hidden;
+  color: #202020;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reference-drawer-caption h3 > button {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reference-drawer-caption h3 > button:hover {
+  color: #557aef;
+}
+
+.reference-drawer-tags {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 6px;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.reference-drawer-tags > span {
+  min-width: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 2px 5px;
+  border-radius: 2px;
+  background: #edf5ff;
+  color: #7da7d9;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  text-overflow: ellipsis;
+}
+
+.reference-drawer-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 28px 0 0;
+}
+
+.reference-drawer-pagination > button {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid #e3e7ef;
+  border-radius: 3px;
+  color: #868c99;
+  font-size: 13px;
+}
+
+.reference-drawer-pagination > button.selected {
+  border-color: #6585ed;
+  background: #f4f7ff;
+  color: #557aef;
+}
+
+@media (max-width: 700px) {
+  .modal-panel.template-picker-modal > .modal-content {
+    padding: 22px 24px;
+  }
+
+  .reference-drawer-grid {
+    gap: 18px 20px;
+  }
+
+  .reference-drawer-card {
+    height: auto;
+  }
+
+  .reference-drawer-cover {
+    height: auto;
+    aspect-ratio: 280 / 322;
+  }
+
+  .reference-drawer-caption {
+    height: 80px;
+    padding: 11px 12px 10px;
+  }
+
+  .reference-drawer-caption h3 {
+    font-size: 16px;
+  }
+
+  .reference-drawer-tags {
+    gap: 4px;
+  }
+
+  .reference-drawer-tags > span {
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-panel.template-picker-modal > .modal-content {
+    padding: 22px 20px;
+  }
+
+  .reference-drawer-grid {
+    grid-template-columns: minmax(0, 280px);
+    justify-content: center;
+  }
+
+  .reference-drawer-caption h3 {
+    font-size: 18px;
+  }
+
+  .reference-drawer-tags > span {
+    font-size: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reference-drawer-cover-overlay {
+    transition: none;
+  }
+}
+
+
+.reference-drawer-cover[aria-pressed="true"] { outline: 2px solid #657dea; outline-offset: -2px; }

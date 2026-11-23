@@ -1,0 +1,9 @@
+.md-drawer-row { display: flex; gap: 2px; align-items: center; }
+.md-drawer-jump { display: flex; align-items: center; gap: 9px; min-height: 44px; min-width: 0; text-align: left; color: #333; }
+.md-drawer-jump span { overflow-wrap: anywhere; }
+.md-drawer-row .md-drawer-jump { flex: 1; }
+.md-drawer-row > button:not(.md-drawer-jump) { width: 38px; min-height: 44px; flex-shrink: 0; color: #626978; }
+.md-drawer-row button:disabled { opacity: .3; }
+.md-drawer-add > summary { display: flex; cursor: pointer; align-items: center; gap: 6px; min-height: 44px; color: #4e68db; }
+.md-drawer-add > summary::-webkit-details-marker { display: none; }
+.md-edit-card:focus-visible { outline: 2px solid #7c8bf1; outline-offset: -2px; }
